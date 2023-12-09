@@ -1,5 +1,0 @@
-- 👋 Hi, I’m Hossein Rajabi and 21 years old.
-- 👀 Don't be afraid at all ! me will not hurt you!!
-- 🌱 I working hard to achieve what I want .
-- 💞️ I hope to become a successful programmer.
-- 📫 Let's start from the beginning together. A new beginning!!!!
