@@ -1,0 +1,124 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color :#fff;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+
+}
+
+
+h2{
+
+    font-size: 20px;
+    border-bottom: 1px solid aqua;
+    width: 96%;
+    padding-left:5px ;
+    padding-bottom: 2px;
+    margin: 35px 2% 15px;
+    color: aqua;
+
+}
+
+
+.Sec{
+
+    margin: 0 2%;
+}
+
+
+b{
+
+    color:gray;
+}
+
+
+header , footer{
+
+    margin: 0 0 20px;
+    background: url('kooh.jpg') no-repeat ;
+    background-size: cover;
+    border: 1px solid #000;
+
+}
+
+
+footer{
+
+    margin: 20px 0 0;
+    width: 100%;
+    border: 1px solid #000;
+
+}
+
+
+header h1{
+
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: darkgray;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+
+header p{
+
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+}
+
+
+header li , footer li{
+
+    display: inline;
+    list-style-type: none;
+
+}
+
+
+.LA  , footer h5{
+
+    text-align: center;
+}
+
+
+.LA a , footer li a{
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 10px 15px;
+    padding: 5px;
+
+}
+
+
+a:hover{
+
+    border-radius: 50%;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+
+#box{
+
+    width: 94%;
+    padding: 20px 0 ;
+    margin: 20px 2% ;
+}
+
