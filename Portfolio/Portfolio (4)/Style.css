@@ -1,0 +1,456 @@
+
+body{
+    margin: 0%;
+    background:#98E4FF;
+    box-sizing: border-box;
+}
+
+
+
+/* ******************** HEADER ************************** */
+
+
+
+header{
+
+    top: 0;
+    position: fixed;
+    border:none;
+    height: 10vh;
+    width: 100%;
+    background-color: #80B3FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.external{
+
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-1{
+
+    display: block;
+    align-items: start;
+    border:none;
+}
+
+.inner-1 h1{
+
+    margin: 0;
+    border:none;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+
+.inner-1 p{
+    margin: 0;
+    font-family: serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.inner-2 li{
+
+    display: inline;
+
+}
+
+.inner-2 a{
+
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #163020;
+    font-size: 17px;
+    margin-left: 10px;
+    letter-spacing: .5px;
+
+}
+
+.inner-2 a:hover{
+
+    border-bottom: 2px solid #B6FFFA;
+    text-shadow:0 0 20px #B6FFFA ;
+    color: #B6FFFA;
+}
+
+
+
+/* ******************** ABOUT ************************** */
+
+
+
+#about{
+
+    width:98%;
+    border: none;
+    position: relative;
+    top:10vh;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-box{
+
+    padding-left: 2%;
+    flex: 2;
+}
+
+.first-box h1 {
+
+    color: #38419D;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.first-box h1 b{
+
+    color: #65B741;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.first-box p{
+
+    color: #11235A;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.second-box{
+
+    margin-right: 5%;
+    background: url('Image.jpg') no-repeat;
+    background-size: cover ;
+    background-position: center;
+    border: 1px solid #11235A;
+    width: 20vw;
+    height:60vh;
+    flex: 1;
+    border-radius: 70%;
+    transition: transform .5s ease;
+}
+
+.second-box:hover{
+
+    transform: scale(1.1);
+}
+
+
+
+/* ******************** SKILLS ************************** */
+
+
+
+#skills{
+
+    width:98%;
+    border: none;
+    position: relative;
+    top:10vh;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.h1-skill {
+
+    color: #38419D;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.h1-skill b {
+
+    color: #65B741;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+table{
+
+    border-collapse: collapse;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+tr{
+
+    align-items: flex-start;
+}
+
+th {
+
+    background-color: #3887BE;
+    text-align: left;
+    padding: .7rem 4rem;
+    border: 1px solid #000;
+    align-items: flex-start;
+
+}
+
+td{
+
+    background: #80B3FF;
+    text-align: center;
+    padding: .7rem 4rem;
+    border: 1px dashed #000;
+    font-size: 18px;
+    letter-spacing: .7px;
+}
+
+td:hover{
+
+    font-weight: 800;
+    letter-spacing: .1px;
+}
+
+
+
+/* ******************** EXPERIENCES ************************** */
+
+
+
+#Experiences{
+
+    width:90%;
+    border: none;
+    position: relative;
+    top:10vh;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    border: none;
+    padding-left: 4%;
+    
+}
+
+.Experiences {
+
+    border: none;
+    color: #38419D;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+.Experiences b {
+
+    color: #65B741;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.ul-Experiences{
+
+    border:none;
+    color: #11235A;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+.ul-Experiences li{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #65B741;
+    list-style-type:square ;
+}
+
+.ul-Experiences b{
+
+    font-family: serif;
+    color: #11235A;
+}
+
+
+
+/* ******************** CONTACT ************************** */
+
+
+
+#contact{
+
+    width:98%;
+    border: none;
+    position: relative;
+    top:10vh;
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.contact {
+
+    font-size: 30px;
+    color: #38419D;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.contact b{
+
+    color: #65B741;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.form{
+
+    height: 40vh;
+    margin:  10vh 33vw;
+    text-align: center;
+}
+
+.form label{
+
+    padding:0;
+    margin: 0;
+    display: block;
+    text-align: center;
+
+}
+
+.form textarea{
+
+    border-radius: 30px;
+    background-color: #B6FFFA;
+    width: 25vw;
+    height: 15vh;
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    resize: none;
+}
+
+form label input[name='email'],
+form label input[name='name']{
+
+    border-radius: 30px;
+    width: 20vw;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #B6FFFA;
+    border: none;
+
+}
+
+.form input[type='submit']{
+
+    border-radius: 30px;
+    background-color: #11235A;
+    color:#80B3FF;
+    width: 10vw;
+    height:30px ;
+    margin: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.form input[name='email']::placeholder,
+.form input[name='name']::placeholder,  
+.form textarea::placeholder{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #38419D;
+    font-size: 15px;
+    text-align: center;
+}
+
+.form input[type='submit']:hover{
+
+    font-family: serif;
+    color: #11235A;
+    background-color: #3887BE;
+    font-weight: bold;
+    font-size: 17px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+form label input:hover , 
+form label textarea:hover{
+
+    
+    box-shadow: 0 0 10px #38419D;
+    border: 1px solid #3887BE;
+
+}
+
+
+
+/* ******************** FOOTER ************************** */
+
+
+.footer {
+
+    background: #80B3FF;
+    border:none;
+    margin: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    border:none;
+    text-align: center;
+
+}
+
+.footer li{
+
+    border:none;
+    margin-right: 20px;
+    display: inline;
+
+}
+
+.footer a{
+
+    text-decoration: none;
+
+}
+
