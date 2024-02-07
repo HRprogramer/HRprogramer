@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: none    ; */
+}
+
+.edit{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../Pictures/img4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit h1{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    border-bottom: 4px dashed #999;
+}
+
+.edit main{
+    height: 50%;
+    width: 60%;
+    background:none;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.edit .edit-box-1 ,
+.edit .edit-box-2{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid #eee; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.edit  .edit-box-1 div,
+.edit  .edit-box-2 div{
+
+    width: 90%;
+    height: 25%;
+}
+
+.edit form{
+    width: 100%;
+    height: 100%;
+}
+
+.edit label{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    gap: 10px;
+}
+
+.edit span{
+    font-family:cursive;
+    width: 70%;
+    padding: 6px;
+    background: #279EFF;
+    border-radius: 15px;
+    /* color: ; */
+}
+
+.edit input{
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.edit .Save{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit form[name="form-submit"]{
+    border:none;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.edit input[name="submitinsert"]{
+    background: green;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.edit input[name="cancel"]{
+    background: #80B3FF;
+}
+
+.edit input[name="submitinsert"]:hover{
+    background: blue;
+    /* color: #000; */
+}
+
+.edit input[name="cancel"]:hover{
+    background: #fff;
+}
+
+.edit input:hover{
+    box-shadow: 0 0 15px #888;
+}
